@@ -1001,4 +1001,8 @@ section { position: relative; padding: 90px 8vw 60px; overflow: hidden; }
   .shape-blob1 { width: 200px; height: 200px; top: -40px; right: -40px; }
   .sticker-pos-1 { top: 2%; right: 4%; }
   .sticker-badge { width: 62px; height: 62px; font-size: 0.55rem; }
+
+  /* shrink the whole spilled-product ring so it lands inside the screen instead of overflowing off the edges */
+  .hero-box-wrap { width: 220px; height: 220px; margin: 130px auto 190px; }
+  .hero-spill { transform: scale(0.42); transform-origin: center; }
 }
